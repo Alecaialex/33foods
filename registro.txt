@@ -1,2 +1,6 @@
 7/10: - Sugerencias de logos hechas por todos los miembros del grupo
-      - 
+      - 431 lineas HTML Alex
+
+8/10: - Alberto crea twitter del restaurante y busca restaurantes reales con la estética que buscamos para coger las fotos
+      - Alex modificación del mapa en el HTML para ocupar todo el ancho
+      - Alex 542 líneas CSS
