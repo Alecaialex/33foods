@@ -12,6 +12,21 @@ body {
   background-color: #080202;
   font-family: "Poppins", sans-serif;
 }
+.orange-border {
+  border: 2px solid #e76800;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 0; /* Asegúrate de que no haya relleno */
+  margin: 0; /* Asegúrate de que no haya margen */
+}
+
+.black-border {
+  border: 4px solid black;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 0; /* Asegúrate de que no haya relleno */
+  margin: 0; /* Asegúrate de que no haya margen */
+}
 
 .container {
   max-width: 1200px;
@@ -27,11 +42,11 @@ body {
 }
 
 .swiper-button-prev {
-  color: #DB241B;
+  color: #e76800;
 }
 
 .swiper-button-next {
-  color: #DB241B;
+  color: #e76800;
 }
 
 .swiper-pagination-bullet {
@@ -40,7 +55,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #DB241B;
+  background-color: #e76800;
 }
 
 .menu {
@@ -58,6 +73,7 @@ body {
 }
 
 .menu-1 {
+  margin-top: 45px;
   margin-right: 180px;
 }
 
@@ -83,12 +99,12 @@ body {
   margin: 0 10px;
   height: 40px;
   width: 40px;
-  border: 1px solid #DB241B;
+  border: 1px solid #e76800;
   border-radius: 50%;
 }
 
 .social:hover {
-  background-color: #DB241B;
+  background-color: #e76800;
 }
 
 .social img {
@@ -109,7 +125,7 @@ body {
 }
 
 .menu .navbar ul li a:hover {
-  color: #DB241B;
+  color: #e76800;
 }
 
 #menu {
@@ -159,7 +175,7 @@ body {
 .btn-1 {
   display: inline-block;
   padding: 15px 35px;
-  border: 2px solid #DB241B;
+  border: 2px solid #e76800;
   color: #FFFF;
   font-weight: 800;
   letter-spacing: 2px;
@@ -169,7 +185,7 @@ body {
 }
 
 .btn-1:hover {
-  background-color: #DB241B;
+  background-color: #e76800;
 }
 
 .slider-img {
@@ -216,7 +232,7 @@ body {
 }
 
 .tabs input[type="radio"]:checked + label {
-  border-bottom: 2px solid #DB241B;
+  border-bottom: 2px solid #e76800;
   color: #FFFF;
 }
 
@@ -288,7 +304,7 @@ body {
 
 .info-img img {
   width: 500px;
-  height: 250px;
+  height: 330px;
 }
 
 .info-txt {
@@ -311,21 +327,23 @@ body {
 
 .btn-2 {
   display: inline-block;
-  padding: 15px 25px;
-  background-color: #DB241B;
-  color: #FFFFFF;
+  padding: 15px 35px;
+  border: 2px solid #e76800;
+  color: #FFFF;
   font-weight: 800;
+  letter-spacing: 2px;
   text-transform: uppercase;
+  margin-right: 20px;
   border-radius: 50px;
 }
 
 .btn-2:hover {
-  background-color: #AB1C15;
+  background-color: #c55a02;
 }
 
 .horario {
   padding: 100px 0;
-  background-color: #0D0D0D;
+  background-color: #080202;
 }
 
 .horario-info h2 {
@@ -333,10 +351,13 @@ body {
   color: #FFFFFF;
   font-weight: 800;
   text-transform: uppercase;
+  margin-left: 800px;
   margin-bottom: 50px;
 }
 
 .horario-txt {
+  margin-left: 100px;
+  margin-right: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -405,7 +426,7 @@ body {
   
   .menu .navbar {
     position: absolute;
-    top: 100%;
+    top: 70%;
     left: 0;
     right: 0;
     background-color: #181818;

@@ -4,3 +4,6 @@
 8/10: - Alberto crea twitter del restaurante y busca restaurantes reales con la estética que buscamos para coger las fotos
       - Alex modificación del mapa en el HTML para ocupar todo el ancho
       - Alex 542 líneas CSS
+
+9/10: - Alex modificación de la web principal quitando un menú innecesario que solo mostraba tres productos
+      - Tamaño del menú arreglado
