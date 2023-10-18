@@ -347,7 +347,90 @@ body {
   display: inline-block;
 }
 
+.formulario-reserva {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  padding: 200px;
+  background-color: #080202;
+  height: 73h;
+  margin-bottom: -100px;
+}
+
+.formulario-reserva h1 {
+  margin-bottom: 30px;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.campo label {
+  color: #FFFFFF;
+}
+
+.campo input[type="text"],
+.campo input[type="number"],
+.campo input[type="date"],
+.campo input[type="time"],
+.campo input[type="tel"] {
+  background-color: #080202;
+  color: #FFFFFF;
+  border: 2px solid #e76800;
+  padding: 13px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.formulario-reserva h1 {
+  font-size: 4vw;
+}
+
+.formulario-reserva label {
+  font-size: 1.5vw;
+}
+
+.enviar {
+  display: inline-block;
+  padding: 10px 35px;
+  height: 46px;
+  border: 2px solid #e76800;
+  color: #FFFF;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #080202;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 48px;
+}
+
+.enviar:hover {
+  background-color: #e76800;
+  color: #080202;
+}
+
 @media(max-width: 991px) {
+
+  .formulario {
+    grid-template-columns: 1fr;
+  }
+
+  .campo {
+    margin: 0 auto;
+  }
+
   .menu {
     padding: 20px;
     justify-content: space-between;
@@ -434,42 +517,4 @@ body {
   .info-txt p {
     font-size: 16px;
   }
-
-  .btn-1 {
-    font-size: 16px;
-  }
-
-  .horario {
-    padding: 30px;
-    text-align: center;
-  }
-
-  .horario-info h2 {
-    font-size: 50px;
-    margin-left: 18px;
-    margin-bottom: 15px;
-  }
-
-  .horario-txt {
-    flex-direction: column;
-  }
-
-  .socials {
-    justify-content: center;
-  }
-
-  .social img {
-    margin: 8px 0 0 0;
-  }
-
-  .footer {
-    padding: 30px;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .links h4 {
-    margin: 25px 0 10px 0;
-  }
-
 }
