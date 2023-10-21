@@ -16,16 +16,16 @@ body {
   border: 2px solid #e76800;
   border-radius: 30px;
   display: inline-block;
-  padding: 0; /* Asegúrate de que no haya relleno */
-  margin: 0; /* Asegúrate de que no haya margen */
+  padding: 0;
+  margin: 0;
 }
 
 .black-border {
   border: 4px solid black;
   border-radius: 30px;
   display: inline-block;
-  padding: 0; /* Asegúrate de que no haya relleno */
-  margin: 0; /* Asegúrate de que no haya margen */
+  padding: 0;
+  margin: 0;
 }
 
 .container {
