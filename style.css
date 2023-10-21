@@ -44,7 +44,10 @@ body {
 }
 
 .navbar {
+  width: 100%;
   display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .menu-1 {
@@ -119,6 +122,7 @@ body {
 .header-content {
   margin-top: 200px;
   padding-bottom: 50px;
+  margin-left: 40%;
 }
 
 .botones {
