@@ -69,11 +69,15 @@ body {
 }
 
 .socials {
+  margin: 0 20px;
+  height: 40px;
+  width: 40px;
   display: flex;
+  justify-content: space-between;
 }
 
 .social {
-  margin: 0 10px;
+  margin: 0 10px; /* Aumenta el margen derecho para aumentar la separación horizontal */
   height: 40px;
   width: 40px;
   border: 1px solid #e76800;
