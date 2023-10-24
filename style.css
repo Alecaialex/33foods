@@ -159,14 +159,17 @@ body {
   display: none;
 }
 
-.header-content {
+.contenedor-botones {
   margin-top: 6%;
   padding-bottom: 50px;
   text-align: center;
 }
 
 .botones {
+  text-align: center;
   margin-top: 50px;
+
+
 }
 
 .btn-1 {
