@@ -380,11 +380,15 @@ body {
   background-color: #080202;
   height: 73vh;
   margin-bottom: -100px;
+  margin-top: -100px;
 }
 
 .formulario-reserva h1 {
   font-size: 50px;
-  margin-bottom: 60px;
+}
+
+.formulario-reserva label {
+  font-size: 1.5vw;
 }
 
 .formulario {
@@ -416,10 +420,6 @@ body {
   width: 100%;
 }
 
-.formulario-reserva label {
-  font-size: 1.5vw;
-}
-
 .enviar {
   display: inline-block;
   padding: 10px 35px;
@@ -448,6 +448,28 @@ body {
 
 .links ul li a:hover {
   color: #e76800;
+}
+
+.rest-txt {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.rest-txt h2 {
+  font-size: 50px;
+  color: #FFFFFF;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.rest-txt p {
+  width: 50%;
+  font-size: 18px;
+  color: #A7A7A7;
+  margin: 0 auto;
 }
 
 @media(max-width: 991px) {
