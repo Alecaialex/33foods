@@ -497,6 +497,11 @@ body {
   height: 200px;
 }
 
+.confirmation-message p {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
 @media(max-width: 991px) {
   .menu {
     padding: 20px;
