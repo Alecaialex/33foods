@@ -474,6 +474,29 @@ body {
   margin: 0 auto;
 }
 
+.personal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.personal-box {
+  width: 30%;
+  margin: 10px;
+  color: #e76800;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.personal-box img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
 @media(max-width: 991px) {
   .menu {
     padding: 20px;
