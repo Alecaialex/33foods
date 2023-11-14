@@ -525,11 +525,6 @@ body {
   background-color: #080202; /* Fondo negro */
 }
 
-.menu-item img {
-  max-width: 100%;
-  height: auto;
-}
-
 .item-details {
   text-align: left;
   padding-left: 10px;
