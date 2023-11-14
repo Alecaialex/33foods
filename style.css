@@ -503,7 +503,7 @@ body {
 }
 
 .categoria {
-  margin-bottom: 30px; /* Espacio entre categorías */
+  margin-bottom: 30px;
 }
 
 .categoria h2 {
@@ -513,16 +513,35 @@ body {
   margin-bottom: 10px;
 }
 
-/* Estilos para los elementos del menú */
 .menu-item {
   width: calc(33% - 20px);
   margin: 10px;
-  border: 2px solid #e76800; /* Borde naranja */
-  padding: 10px;
+  border: 1px solid #e76800; /* Borde naranja */
+  padding: 5px;
   text-align: center;
   display: inline-block;
   box-sizing: border-box;
   background-color: #080202; /* Fondo negro */
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.menu-item img {
+  border-radius: 15px;
+}
+
+.categoria h2 {
+  font-size: 50px;
+  color: #FFFFFF;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.titulo-entrantes {
+  margin-top: 5%;
 }
 
 .item-details {
@@ -535,14 +554,14 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin-top: 5px;
-  color: #FFFF; /* Texto blanco */
+  color: #FFFF;
 }
 
 .item-description {
   text-align: center;
   font-size: 14px;
   margin-top: 5px;
-  color: #A7A7A7; /* Texto gris claro */
+  color: #A7A7A7;
 }
 
 .item-price {
@@ -550,20 +569,50 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin-top: 5px;
-  color: #e76800; /* Texto naranja */
+  color: #e76800;
 }
 
-/* Estilos específicos para categorías */
-.entrante {
-  background-color: #080202; /* Fondo negro para entrantes */
+.menu-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-top: 50px;
 }
 
-.principal {
-  background-color: #080202; /* Fondo negro para platos principales */
+.menu-item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #e76800;
+  border-radius: 10px;
+  background-color: #080202;
+  color: #FFFFFF;
+  width: 30%;
+  height: auto; /* Esto debería ser automático para adaptarse al contenido */
 }
 
-.postre {
-  background-color: #080202; /* Fondo negro para postres */
+.menu-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.precio {
+  font-size: 18px;
+  color: #e76800;
+}
+
+.descripcion {
+  font-size: 16px;
+  color: #A7A7A7;
+}
+
+.caracteristicas {
+  list-style-type: circle;
 }
 
 @media(max-width: 991px) {
