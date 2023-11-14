@@ -502,14 +502,27 @@ body {
   margin-top: 20px;
 }
 
+.categoria {
+  margin-bottom: 30px; /* Espacio entre categorías */
+}
+
+.categoria h2 {
+  color: #FFFF;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los elementos del menú */
 .menu-item {
   width: calc(33% - 20px);
   margin: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #e76800; /* Borde naranja */
   padding: 10px;
   text-align: center;
   display: inline-block;
   box-sizing: border-box;
+  background-color: #080202; /* Fondo negro */
 }
 
 .menu-item img {
@@ -527,12 +540,14 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin-top: 5px;
+  color: #FFFF; /* Texto blanco */
 }
 
 .item-description {
   text-align: center;
   font-size: 14px;
   margin-top: 5px;
+  color: #A7A7A7; /* Texto gris claro */
 }
 
 .item-price {
@@ -540,7 +555,20 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin-top: 5px;
-  color: #e76800;
+  color: #e76800; /* Texto naranja */
+}
+
+/* Estilos específicos para categorías */
+.entrante {
+  background-color: #080202; /* Fondo negro para entrantes */
+}
+
+.principal {
+  background-color: #080202; /* Fondo negro para platos principales */
+}
+
+.postre {
+  background-color: #080202; /* Fondo negro para postres */
 }
 
 @media(max-width: 991px) {
