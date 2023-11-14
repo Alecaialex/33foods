@@ -380,9 +380,9 @@ body {
   color: #FFFFFF;
   padding: 200px;
   background-color: #080202;
-  height: 73vh;
-  margin-bottom: -100px;
-  margin-top: -100px;
+  height: 400px;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 .formulario-reserva h1 {
@@ -500,6 +500,47 @@ body {
 .confirmation-message p {
   font-size: 25px;
   margin-top: 20px;
+}
+
+.menu-item {
+  width: calc(33% - 20px);
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-details {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.item-name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.item-description {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.item-price {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #e76800;
 }
 
 @media(max-width: 991px) {
