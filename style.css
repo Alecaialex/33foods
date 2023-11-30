@@ -514,7 +514,8 @@ body {
 }
 
 .menu-item {
-  width: calc(33% - 20px);
+  
+  width: calc(33% -10px);
   margin: 10px;
   border: 1px solid #e76800; /* Borde naranja */
   padding: 5px;
@@ -575,9 +576,11 @@ body {
 .menu-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
+  text-align: center;
 }
 
 .menu-item {
